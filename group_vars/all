@@ -1,17 +1,17 @@
 user:
-    name: pigmonkey
+    name: panduro
     uid: 1000
-    group: pigmonkey
+    group: panduro
     shell: /usr/bin/zsh
-    email:  peter@havenaut.net
+    email: agnivalent@gmail.com
     log:
         dir: log
         rotate: 8
 
-hostname: nous
+hostname: ashenzari
 
 dotfiles:
-    url: git@github.com:pigmonkey/dotfiles.git
+    url: git@github.com:agnivalent/dotfiles.git
     destination: projects/dotfiles
     rcup_flags: -fx README.md
 
